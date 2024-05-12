@@ -136,6 +136,10 @@ ol {
   padding: 1px;
 }
 
+.search-form__label:hover {
+  text-decoration: underline;
+} 
+
 /* content-list */
 
 .content__details {
@@ -165,6 +169,14 @@ ol {
   height: 298px;
 }
 
+.content__list-item:hover {
+  text-decoration: underline;
+}
+
+.content__list-item:active {
+  background-color: #545050;
+}
+
 .content__card-link {
   color: #fff;
   text-decoration: none;
@@ -185,6 +197,7 @@ ol {
   font-weight: bold;
   line-height: 100%;
   text-transform: uppercase;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
