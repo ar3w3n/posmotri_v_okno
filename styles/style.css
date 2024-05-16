@@ -127,7 +127,8 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: none;
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__checkbox-list {
@@ -198,6 +199,7 @@ ol {
 .content__card-link {
   display: block;
   padding: 2px;
+  margin: 2px;
   color: #fff;
   text-decoration: none;
 }
@@ -259,7 +261,6 @@ ol {
 /* buttons */
 
 .button {
-  
   border: 1px solid currentColor;
   font-size: 18px;
   font-weight: bold;
