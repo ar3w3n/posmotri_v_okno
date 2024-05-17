@@ -82,7 +82,8 @@ ol {
 
 .search-form {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 40px;
 }
 
 .search-form__fieldset {
@@ -133,7 +134,7 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 15px;
 }
 
@@ -187,7 +188,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  overflow-y: auto;
+  overflow: auto;
   height: 298px;
   width: 100%;
 }
