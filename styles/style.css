@@ -68,7 +68,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -110,7 +110,7 @@ ol {
   font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-weight: normal;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .search-form__textfield {
