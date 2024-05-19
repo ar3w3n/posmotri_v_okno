@@ -61,7 +61,7 @@ ol {
 }
 
 .result {
-  margin-top: 78px;
+  margin-top: 77px;
 }
 
 .result__video-container {
@@ -133,8 +133,8 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-around;
+  /* gap: 15px; */
 }
 
 .search-form__label .search-form__pseudo-checkbox {
@@ -175,7 +175,7 @@ ol {
   font-weight: bold;
   line-height: 94%;
   text-transform: uppercase;
-  margin-bottom: 26px;
+  margin-bottom: 20px;
 }
 
 .content__accent {
